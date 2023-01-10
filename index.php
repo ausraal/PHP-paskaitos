@@ -1,11 +1,10 @@
 <!DOCTYPE html>
 <html>
 <body>
-<form method="POST" action="submit.php">
-    <label for="fname">First name:</label><br>
-    <input type="text" id="fname" name="fname" /> <br>
-    <label for="surname">Last name:</label><br>
-    <input type="text" id="surname" name="surname" />
+<form method="POST" action="submit2.php">
+    <label for="todo">FItems to do today:</label><br>
+    <input type="text" id="todo" name="todo" /> <br>
+
     <input type="submit" />
 </form>
 
